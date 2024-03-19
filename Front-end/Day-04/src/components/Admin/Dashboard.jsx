@@ -1,0 +1,60 @@
+import React from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '../../assets/css/Dashboard.css';
+import Sidebar from './Sidebar';
+
+
+function Dashboard() {
+  return (
+    <div className="container-dash">
+      <Sidebar/>
+
+      <section className="main">
+        <div className="main-top">
+          <h1>Students and Universities</h1>
+          <i className="fas fa-user-cog"></i>
+        </div>
+        <div className="main-skills">
+          <div className="carddash">
+            <i className="fas fa-laptop-code"></i>
+            <h3>Web </h3>
+            <p>Join Over 1 million Students.</p>
+            <button>Get Started</button>
+          </div>
+          <div className="carddash">
+            <i className="fab fa-wordpress"></i>
+            <h3>WordPress</h3>
+            <p>Join Over 3 million Students.</p>
+            <button>Get Started</button>
+          </div>
+          <div className="carddash">
+            <i className="fas fa-palette"></i>
+            <h3>Graphic </h3>
+            <p>Join Over 2 million Students.</p>
+            <button>Get Started</button>
+          </div>
+          <div className="carddash">
+            <i className="fab fa-app-store-ios"></i>
+            <h3>IOS dev</h3>
+            <p>Join Over 1 million Students.</p>
+            <button>Get Started</button>
+          </div>
+        </div>
+
+        <section className="main-course">
+          <h1>Courses</h1>
+          <div className="course-box">
+            <ul>
+              <li className="active">In progress</li>
+              <li>explore</li>
+              <li>incoming</li>
+              <li>finished</li>
+            </ul>
+           </div>
+        </section>
+      </section>
+    </div>
+  );
+}
+
+export default Dashboard;
