@@ -1,0 +1,93 @@
+.box1 {
+    position: absolute;
+    /* display: flex; */
+    top: 50%;
+    left: 50%; /* Adjusted left value */
+    transform: translate(-5%, -50%);
+    width: 30rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    background:rgba(80, 80, 80, 1.6);
+    border-radius: 1.625rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .box1 h2 {
+    margin: 0 0 1.875rem;
+    padding: 0;
+    color: rgb(255, 204, 0);
+    
+    text-align: center;
+  }
+  .form-group {
+    color: aliceblue;
+
+    display: flex;
+
+    
+    position: relative;
+    margin-bottom: 1.875rem;
+  }
+ .form-group label {
+    display: block; /* Make the label a block element */
+    margin-bottom: 5px; /* Add margin bottom to create space between label and input */
+}
+.form-group input{
+    border-radius: 2rem; 
+    transform: scale(135%);
+    border-color: rgb(255, 204, 0);
+    outline: none;
+
+   
+}
+.form-group select{
+  border-radius: 2rem; 
+  transform: scale(135%);
+  border-color: rgb(255, 204, 0);
+  outline: none;
+}
+.form-group input:hover{
+  transform: scale(165%);
+  border-color: rgb(255, 204, 0);
+  /* filter: drop-shadow(5px 5px 10px rgb(255, 204, 0)); */
+}
+.box1 button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 204, 0);
+    align-items: center;
+    padding: 0.625rem 2.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+}
+
+.box1 button:hover {
+    background-color: #fff;
+    color:black;
+    
+}
+
+.box1  p{
+    color: #fff;
+}
+
+.button-container {
+    text-align: center; /* Center-align the contents */
+  }
+
+  .container {
+    display: flex;
+    gap: 10rem;
+  }
+  
+  .lottie-container {
+    left: 120px;
+
+  }
+
+
+  
