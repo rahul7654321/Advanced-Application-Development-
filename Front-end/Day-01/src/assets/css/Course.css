@@ -1,0 +1,37 @@
+
+.card-img-top{
+    border-radius: 40px;
+    padding: 20px;
+    
+}
+
+.card{
+    width: 100%;
+    max-width: 300px; /* Adjust maximum width as needed */
+    background-color: #fff;
+    border-radius: 8px; /* Apply border radius to all corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.card:hover{
+    transform: translateY(-15px); /* Move the card up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+.card-title{
+    color: rgb(0, 91, 228);
+}
